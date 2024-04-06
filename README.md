@@ -1,4 +1,4 @@
-# Arduino - Blinking LED
+# Arduino - flashing a led
 
 ## Documentation
 
