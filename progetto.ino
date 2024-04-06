@@ -1,25 +1,14 @@
-//ARDUINO FAR LAMPEGGIARE UN LED
+//ARDUINO MAKE A LED FLASH
 
- #define LED 13 //LED COLLEGATO AL PIN 13
-
- 
+ #define LED 13 //LED CONNECTED TO PIN 13
 
 void setup() {
-
-    pinMode(LED,OUTPUT);     // IMPOSTA IL PIN COM OUTPUT
-
+    pinMode(LED,OUTPUT);     // SETS THE PIN COM OUTPUT
 }
 
- 
-
 void loop() {
-
-  digitalWrite(LED,HIGH);  // ACCENDE IL LED
-
-  delay(1000); // ASPETTA UN SECONDO
-
-  digitalWrite(LED, LOW);  // SPEGNE LED
-
-  delay(1000);  // ASPETTA UN SECONDO
-
+  digitalWrite(LED,HIGH);  // TURNS ON THE LED
+  delay(1000); // WAIT A SECOND
+  digitalWrite(LED, LOW);  // LED SWITCHES OFF
+  delay(1000);  // WAIT A SECOND
 }
